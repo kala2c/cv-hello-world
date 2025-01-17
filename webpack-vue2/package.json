@@ -1,0 +1,32 @@
+{
+  "name": "webpack-vue3",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack serve --mode=development --config webpack.config.js",
+    "build:watch": "webpack --mode=development --config webpack.config.js --watch",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "sass": "^1.83.4",
+    "sass-loader": "^16.0.4",
+    "style-loader": "^4.0.0",
+    "vue-loader": "^15.11.1",
+    "vue-template-compiler": "^2.7.16",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "vue": "~2.7.14",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  }
+}
