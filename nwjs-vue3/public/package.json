@@ -1,0 +1,21 @@
+{
+  "name": "nwjs-vue3",
+  "main": "./index.html",
+  "version": "1.0.1",
+  "nodejs": true,
+  "js-flags": "--harmony",
+  "node-remote": "<all_urls>",
+  "window": {
+    "title": "APP NAME",
+    "toolbar": false,
+    "width": 1280,
+    "height": 720,
+    "min_width": 1100,
+    "min_height": 600,
+    "resizable": true,
+    "frame": true,
+    "kiosk": false,
+    "icon": "./logo.png",
+    "show_in_taskbar": true
+  }
+}

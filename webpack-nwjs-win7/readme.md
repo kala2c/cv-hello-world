@@ -8,6 +8,8 @@
 
 - 适配nwjs 0.14.7版本，支持windows7/xp
 
+- 未添加任何UI库和框架
+
 - 未提供webpack-dev-server配置，nwjs适合实时构建查看效果
 
   - 如需在浏览器中查看效果，需添加webpack-dev-server，步骤：

@@ -1,4 +1,8 @@
 
+主要集成技术：
+
+webpack5+vue2.7+vue-router+vuex+sass
+
 
 ### Webpack搭建 Vue2 项目
 

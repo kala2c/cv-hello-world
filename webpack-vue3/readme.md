@@ -2,6 +2,10 @@
 
 ### Webpack搭建 Vue3 项目
 
+主要集成技术：
+
+webpack5+vue3.5+vue-router+less
+
 - 未添加低版本浏览器兼容，如需兼容选择Vue2更好
 
 - @vue/runtime-dom包为选装，yarn不需要安装，pnpm需要单独安装
